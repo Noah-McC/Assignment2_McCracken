@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Assignment2_McCracken</string>
+    <string name="search">Search</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="studio">Studio</string>
+    <string name="rating">Rating</string>
+    <string name="year">Year</string>
+</resources>
