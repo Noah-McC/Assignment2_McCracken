@@ -5,4 +5,7 @@
     <string name="studio">Studio</string>
     <string name="rating">Rating</string>
     <string name="year">Year</string>
+    <string name="detailed_title">Detailed Title</string>
+    <string name="detailed_description">Detailed Description</string>
+    <string name="back">Back</string>
 </resources>

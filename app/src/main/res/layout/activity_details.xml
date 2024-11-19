@@ -8,4 +8,55 @@
     android:background="#242424"
     tools:context=".DetailsActivity">
 
+    <ImageView
+        android:id="@+id/imageViewDetails"
+        android:layout_width="308dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtTitleDetails"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.069"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/txtTitleDetails"
+        android:layout_width="308dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="9dp"
+        android:text="@string/detailed_title"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/txtDescriptionDetails"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewDetails" />
+
+    <TextView
+        android:id="@+id/txtDescriptionDetails"
+        android:layout_width="310dp"
+        android:layout_height="133dp"
+        android:layout_marginBottom="43dp"
+        android:text="@string/detailed_description"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/btnBack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTitleDetails" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="27dp"
+        android:backgroundTint="#2196F3"
+        android:text="@string/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.159"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDescriptionDetails" />
 </androidx.constraintlayout.widget.ConstraintLayout>
